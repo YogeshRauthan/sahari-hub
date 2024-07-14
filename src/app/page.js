@@ -52,3 +52,5 @@ export default function Home() {
     </div>
   );
 }
+
+// green footer : #1B3D2F

@@ -8,14 +8,14 @@ import {
 
 const Contact = () => {
   return (
-    <div className="bg-[#005A34]/10 py-10">
+    <div className="bg-[#FFF2D7] text-black py-10">
       <div className="container mx-auto font-inter">
-        <div className="flex flex-col md:flex-row items-center px-1">
-          <div className="content1 flex flex-col w-full md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-medium mb-8">
+        <div className="flex flex-col md:flex-row items-center justify-center px-1">
+          <div className="content1 flex flex-col w-full justify-center md:w-1/2 mb-8 md:mb-0">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-medium mb-8 pl-2">
               Contact Us
             </h1>
-            <div className="contact-info space-y-4">
+            <div className="contact-info space-y-4 pl-6">
               <p className="text-2xl">
                 <strong>Email:</strong> your.email@example.com
               </p>
@@ -62,14 +62,14 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="img1 w-full md:w-1/2"
+            className="img1 w-full md:w-1/2 flex justify-center"
             data-aos="flip-down"
             data-aos-once="true"
           >
             <img
-              src="/assets/images/contact.jpg"
+              src="/assets/images/SH-1.png"
               alt="Contact"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-[500px]"
             />
           </div>
         </div>

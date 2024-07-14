@@ -1,13 +1,13 @@
 const About = () => {
   return (
-    <div className="bg-[#005A34]/10 py-10 font-inter">
+    <div className="bg-[#FFF2D7] py-10 font-inter">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-8">
           <div className="img1 w-full lg:w-1/2">
             <img
               src="/assets/images/aboutus1.jpg"
               alt="aboutus_image"
-              className="rounded-md w-full h-auto"
+              className="rounded-md w-[600px] h-auto"
               data-aos="fade-up"
               data-aos-once="true"
             />

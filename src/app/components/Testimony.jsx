@@ -9,7 +9,7 @@ const Slider = dynamic(() => import('react-slick'), { ssr: false });
 const TestimonialData = [
     {
         id: 1,
-        name: "Sikha Gupta",
+        name: "Shikha Gupta",
         text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
         img: "https://picsum.photos/101/101"
     },
@@ -83,11 +83,8 @@ const Testimony = () => {
             <div className='container mx-auto'>
                 {/* Header Section */}
                 <div className='text-center mb-10 max-w-[600px] mx-auto'>
-                    <p className='text-sm text-primary'>What our customers are saying</p>
-                    <h1 className='text-3xl font-bold'>Testimonials</h1>
-                    <p className='text-xs text-gray-400'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut numquam iure excepturi?
-                    </p>
+                    <p className='text-sm font-medium text-primary'>What our customers are saying</p>
+                    <h1 className='text-4xl font-bold'>Testimonials</h1>
                 </div>
 
                 {/* Testimonial Cards */}
@@ -95,17 +92,17 @@ const Testimony = () => {
                     <Slider {...settings}>
                         {TestimonialData.map((data) => (
                             <div key={data.id} className='my-6'>
-                                <div className='flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl dark:bg-gray-700 bg-[#005A34]/10 relative'>
-                                    <div className='mb-4'>
+                                <div className='flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-yellow-50 relative'>
+                                    <div className='mb-4 flex gap-6 items-center'>
                                         <img src={data.img} alt={data.name} className='rounded-full w-20 h-20' />
+                                        <h1 className='text-2xl font-bold text-black/80 dark:text-white'>{data.name}</h1>
                                     </div>
                                     <div className='flex flex-col items-center gap-4'>
                                         <div className='space-y-3'>
                                             <p className='text-xs text-gray-500 dark:text-gray-400'>{data.text}</p>
-                                            <h1 className='text-xl font-bold text-black/80 dark:text-white'>{data.name}</h1>
                                         </div>
                                     </div>
-                                    <p className='text-black/20 dark:text-gray-400 text-9xl font-serif absolute top-0 right-0'>,,</p>
+                                    <p className='text-black/20  text-9xl font-serif absolute -top-6 right-0'>,,</p>
                                 </div>
                             </div>
                         ))}
