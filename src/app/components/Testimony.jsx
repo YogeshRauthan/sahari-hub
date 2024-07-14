@@ -95,11 +95,11 @@ const Testimony = () => {
                                 <div className='flex flex-col gap-4 shadow-lg py-8 px-6 mx-4 rounded-xl bg-yellow-50 relative'>
                                     <div className='mb-4 flex gap-6 items-center'>
                                         <img src={data.img} alt={data.name} className='rounded-full w-20 h-20' />
-                                        <h1 className='text-2xl font-bold text-black/80 dark:text-white'>{data.name}</h1>
+                                        <h1 className='text-2xl font-bold text-black'>{data.name}</h1>
                                     </div>
                                     <div className='flex flex-col items-center gap-4'>
                                         <div className='space-y-3'>
-                                            <p className='text-xs text-gray-500 dark:text-gray-400'>{data.text}</p>
+                                            <p className='text-xs text-gray-600 '>{data.text}</p>
                                         </div>
                                     </div>
                                     <p className='text-black/20  text-9xl font-serif absolute -top-6 right-0'>,,</p>

@@ -15,7 +15,10 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#1B3D2F] text-white font-inter py-10">
+    <footer 
+      className="text-white font-inter py-10 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: "url('/assets/images/footbanner1.jpg')" }}
+    >
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}

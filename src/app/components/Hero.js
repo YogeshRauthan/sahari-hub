@@ -5,7 +5,7 @@ const ImageList = [
   {
     id: 1,
     img: "/assets/images/heroimg5.png",
-    title: "Bringing you latest शहरी Fashion",
+    title: "Latest शहरी Fashion Just For You",
     description: "At affordable prices",
   },
   {
