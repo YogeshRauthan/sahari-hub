@@ -48,7 +48,7 @@ const Products = () => {
     <div className="container mx-auto px-4 py-12 font-inter">
       <div className="flex flex-col justify-center items-center py-4">
         <div className="text-4xl font-bold">Trending Products</div>
-        <p className="text-xl">
+        <p className="text-xl px-2">
           Select from a wide variety of clothing range hand picked by experts
           for you
         </p>

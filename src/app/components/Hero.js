@@ -71,7 +71,8 @@ const Hero = () => {
                   <div
                     data-aos="fade-up"
                     data-aos-duration="500"
-                    data-aos-delay="300"
+                    data-aos-delay="100"
+                    data-aos-once="true"
                   >
                     <button className="ml-2 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:scale-105 duration-200 text-white py-2 px-4 rounded-full shadow-md shadow-gray-400 border border-yellow-700">
                       Order Now

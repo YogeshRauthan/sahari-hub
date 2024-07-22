@@ -13,7 +13,7 @@ const About = () => {
             />
           </div>
           <div className="content1 flex flex-col items-center lg:items-start w-full lg:w-1/2">
-            <h2 className="text-4xl md:text-6xl lg:text-8xl font-medium mb-6">About Us</h2>
+            <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold lg:font-medium mb-6">About Us</h2>
             <p className="text-base md:text-lg lg:text-xl text-center lg:text-left">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea iusto
               optio architecto dicta sapiente ipsam maiores ab dolores, quaerat

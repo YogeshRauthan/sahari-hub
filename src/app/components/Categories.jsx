@@ -41,7 +41,7 @@ const Categories = () => {
           <p
             data-aos="fade-up"
             data-aos-once="true"
-            className="text-lg text-gray-700"
+            className="text-xl text-gray-700 px-2"
           >
             Choose from our best categories selected for you.
           </p>

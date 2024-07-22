@@ -12,7 +12,7 @@ const Contact = () => {
       <div className="container mx-auto font-inter">
         <div className="flex flex-col md:flex-row items-center justify-center px-1">
           <div className="content1 flex flex-col w-full justify-center md:w-1/2 mb-8 md:mb-0">
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-medium mb-8 pl-2">
+            <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold lg:font-medium mb-8 pl-2">
               Contact Us
             </h1>
             <div className="contact-info space-y-4 pl-6">
@@ -23,7 +23,7 @@ const Contact = () => {
                 <strong>Phone:</strong> +91 (123) 456-7890
               </p>
               <div className="social-links mt-6">
-                <h2 className="text-2xl font-medium mb-4">Connect with us:</h2>
+                <h2 className="text-2xl font-medium mb-4"><strong>Connect with us</strong></h2>
                 <div className="flex space-x-6">
                   <a
                     href="https://facebook.com/yourprofile"
@@ -62,14 +62,14 @@ const Contact = () => {
             </div>
           </div>
           <div
-            className="img1 w-full md:w-1/2 flex justify-center"
+            className="img1 w-full md:w-1/2 hidden md:flex justify-center"
             data-aos="flip-down"
             data-aos-once="true"
           >
             <img
               src="/assets/images/SH-1.png"
               alt="Contact"
-              className="rounded-lg shadow-lg w-[500px]"
+              className="rounded-lg shadow-lg w-[500px] "
             />
           </div>
         </div>

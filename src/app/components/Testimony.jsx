@@ -83,8 +83,8 @@ const Testimony = () => {
             <div className='container mx-auto'>
                 {/* Header Section */}
                 <div className='text-center mb-10 max-w-[600px] mx-auto'>
-                    <p className='text-sm font-medium text-primary'>What our customers are saying</p>
                     <h1 className='text-4xl font-bold'>Testimonials</h1>
+                    <p className='text-xl font-medium text-primary'>What our customers are saying</p>
                 </div>
 
                 {/* Testimonial Cards */}
