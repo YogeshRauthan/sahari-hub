@@ -10,31 +10,31 @@ const TestimonialData = [
     {
         id: 1,
         name: "Shikha Gupta",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
+        text: "I can't get enough of Sahari Hub's collections. They have everything from chic dresses to comfortable everyday wear. Simply amazing!",
         img: "https://picsum.photos/101/101"
     },
     {
         id: 2,
         name: "Harish",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
+        text: "Sahari Hub's men's collection is stylish and comfortable. Perfect for any occasion!",
         img: "https://picsum.photos/102/102"
     },
     {
         id: 3,
         name: "Ankit",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
+        text: "Sahari Hub has become my favorite store. The quality is consistently excellent, and the customer service is outstanding.",
         img: "https://picsum.photos/103/103"
     },
     {
         id: 4,
         name: "Akshat",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
+        text: "Every purchase from Sahari Hub has been a delight. The clothes are fashionable, well-made, and the shipping is always quick.",
         img: "https://picsum.photos/104/104"
     },
     {
         id: 5,
         name: "Rajat",
-        text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum animi itaque tenetur ex commodi perspiciatis architecto neque voluptates nesciunt sit.",
+        text: "I love how Sahari Hub keeps up with the latest trends. Their new arrivals always have something fresh and exciting.",
         img: "https://picsum.photos/105/105"
     }
 ];

@@ -21,12 +21,19 @@ const Products = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
@@ -35,7 +42,7 @@ const Products = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -45,46 +52,51 @@ const Products = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12 font-inter">
-      <div className="flex flex-col justify-center items-center py-4">
-        <div className="text-4xl font-bold">Trending Products</div>
-        <p className="text-xl px-2">
-          Select from a wide variety of clothing range hand picked by experts
-          for you
-        </p>
+    <div className="w-full overflow-hidden py-12 font-inter">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col justify-center items-center py-4">
+          <div className="text-4xl font-bold">Trending Products</div>
+          <p className="text-xl px-2 text-center">
+            Select from a wide variety of clothing range hand picked by experts
+            for you
+          </p>
+        </div>
+        <div className="mx-[-15px]">
+          <Slider {...settings}>
+            {cardData.map((card, index) => (
+              <div key={index} className="px-2">
+                <Card {...card} />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-      <Slider {...settings}>
-        {cardData.map((card, index) => (
-          <Card key={index} {...card} />
-        ))}
-      </Slider>
     </div>
   );
 };
 
-
 const Card = ({ image, title, price }) => {
   return (
     <div
-      className="bg-white rounded-lg border-[1px] border-gray-300 shadow-md overflow-hidden m-2"
+      className="bg-white rounded-lg border border-gray-300 shadow-md overflow-hidden h-[400px] flex flex-col"
       data-aos="zoom-in"
       data-aos-once="true"
     >
-      <div className="relative h-48 bg-[#FFF8E6]">
+      <div className="relative flex-grow bg-gray-100">
         <Image 
           src={image} 
           alt={title} 
           fill 
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
           style={{ objectFit: 'contain' }}
         />
       </div>
-      <div className="bg-white flex border-t-[0.5px] border-gray-300 justify-between">
-        <div className="p-4 rounded-lg">
-          <h2 className="text-xl font-semibold mb-2">{title}</h2>
+      <div className="bg-white flex flex-col border-t border-gray-300 justify-between p-4">
+        <div>
+          <h2 className="text-lg font-semibold mb-2">{title}</h2>
           <p className="text-gray-600 font-bold">${price.toFixed(2)}</p>
         </div>
-        <button className="bg-orange-600 text-white my-5 mx-4 rounded-full px-4 font-semibold shadow-gray-400 shadow-md duration-300 hover:scale-105 hover:bg-white hover:text-orange-700 hover:border-[1px] hover:border-orange-700">
+        <button className="bg-orange-600 text-white mt-4 py-2 rounded-full px-4 font-semibold shadow-gray-400 shadow-md duration-300 hover:bg-white hover:text-orange-700 hover:border hover:border-orange-700">
           Order Now
         </button>
       </div>

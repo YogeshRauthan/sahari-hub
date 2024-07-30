@@ -56,25 +56,25 @@ const Hero = () => {
                     data-aos="zoom-out"
                     data-aos-duration="500"
                     data-aos-once="true"
-                    className="text-5xl sm:text-6xl lg:text-7xl font-bold ml-2"
+                    className="text-5xl sm:text-6xl lg:text-7xl font-bold ml-2 md:ml-4 lg:ml-6"
                   >
                     {data.title}
                   </h1>
-                  <p
+                  {/* <p
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
                     className="text-sm ml-2"
                   >
                     {data.description}
-                  </p>
+                  </p> */}
                   <div
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
                     data-aos-once="true"
                   >
-                    <button className="ml-2 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:scale-105 duration-200 text-white py-2 px-4 rounded-full shadow-md shadow-gray-400 border border-yellow-700">
+                    <button className="ml-2 md:ml-4 lg:ml-6 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:scale-105 duration-200 text-white py-2 px-4 rounded-full shadow-md shadow-gray-400 border border-yellow-700">
                       Order Now
                     </button>
                   </div>
