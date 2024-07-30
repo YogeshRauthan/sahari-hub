@@ -25,7 +25,7 @@ export default function Header() {
       <div className="container mx-auto">
         <div className="flex justify-between items-center h-20">
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex gap-6">
+          <nav className="hidden md:flex gap-6 md:px-4">
             <button
               onClick={() => scrollToSection("products")}
               className="text-xl hover:text-white hover:scale-105 transition duration-300"
@@ -58,7 +58,7 @@ export default function Header() {
           </div>
 
           {/* Social Icons */}
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex md:px-4 items-center gap-4">
             <a
               href="#"
               className="text-2xl hover:text-blue-300 transition duration-300"

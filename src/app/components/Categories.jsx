@@ -4,24 +4,24 @@ import { FaStar } from "react-icons/fa6";
 const ProductsData = [
   {
     id: 1,
-    src: "/assets/images/shirt.png",
+    src: "/assets/images/winter03.png",
     title: "Winter Wear",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quam adipisci repudiandae eum accusamus iste nemo iusto repellendus aliquam dolores!",
+      "This Winter style yourself with Sahari Hub's Latest Collection",
   },
   {
     id: 2,
     src: "/assets/images/shirt2.png",
     title: "Men Fashion",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quam adipisci repudiandae eum accusamus iste nemo iusto repellendus aliquam dolores!",
+      "Discover stylish men's clothing at Sahari Hub!",
   },
   {
     id: 3,
-    src: "/assets/images/shirt3.png",
+    src: "/assets/images/women01.png",
     title: "Women Fashion",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, quam adipisci repudiandae eum accusamus iste nemo iusto repellendus aliquam dolores!",
+      "Explore trendy and elegant women's fashion at Sahari Hub!",
   },
 ];
 
