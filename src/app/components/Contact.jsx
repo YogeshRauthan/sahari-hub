@@ -1,17 +1,12 @@
 import React from "react";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTelegram,
-  FaWhatsapp,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTelegram, FaWhatsapp } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="bg-[#FFF2D7] text-black py-10">
-      <div className="container mx-auto font-inter">
-        <div className="flex flex-col md:flex-row items-center justify-center px-1">
-          <div className="content1 flex flex-col w-full justify-center md:w-1/2 mb-8 lg:ml-5 md:mb-0">
+      <div className="container mx-auto font-inter overflow-x-hidden">
+        <div className="flex flex-col md:flex-row items-center justify-center px-4">
+          <div className="content1 flex flex-col w-full md:w-1/2 mb-8 lg:ml-5 md:mb-0">
             <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold lg:font-medium mb-8 pl-2">
               Contact Us
             </h1>
@@ -34,7 +29,7 @@ const Contact = () => {
                     <FaFacebook size={32} />
                   </a>
                   <a
-                    href="https://instagram.com/yourhandle"
+                    href="https://www.instagram.com/_sahari_hub/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-pink-600 hover:text-pink-800"
@@ -69,7 +64,7 @@ const Contact = () => {
             <img
               src="/assets/images/SH-1.png"
               alt="Contact"
-              className="rounded-lg shadow-lg w-[500px] "
+              className="rounded-lg shadow-lg w-full max-w-[500px]"
             />
           </div>
         </div>

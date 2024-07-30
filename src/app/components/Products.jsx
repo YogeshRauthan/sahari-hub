@@ -27,27 +27,9 @@ const Products = () => {
     autoplaySpeed: 2000,
     pauseOnHover: true,
     responsive: [
-      {
-        breakpoint: 1280,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
+      { breakpoint: 1280, settings: { slidesToShow: 3, slidesToScroll: 1 } },
+      { breakpoint: 1024, settings: { slidesToShow: 2, slidesToScroll: 1 } },
+      { breakpoint: 640, settings: { slidesToShow: 1, slidesToScroll: 1 } },
     ],
   };
 
@@ -57,11 +39,10 @@ const Products = () => {
         <div className="flex flex-col justify-center items-center py-4">
           <div className="text-4xl font-bold">Trending Products</div>
           <p className="text-xl px-2 text-center">
-            Select from a wide variety of clothing range hand picked by experts
-            for you
+            Select from a wide variety of clothing range hand picked by experts for you
           </p>
         </div>
-        <div className="mx-[-15px]">
+        <div className="slider-container mx-[-15px]">
           <Slider {...settings}>
             {cardData.map((card, index) => (
               <div key={index} className="px-2">
@@ -105,3 +86,4 @@ const Card = ({ image, title, price }) => {
 };
 
 export default Products;
+

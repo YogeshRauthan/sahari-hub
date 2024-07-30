@@ -66,7 +66,9 @@ export default function Header() {
               <FaFacebook size={28} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/_sahari_hub/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-2xl hover:text-pink-300 transition duration-300"
             >
               <FaInstagram size={28} />
@@ -141,7 +143,9 @@ export default function Header() {
                 <FaFacebook />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/_sahari_hub/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:text-pink-300 transition duration-300"
               >
                 <FaInstagram />
