@@ -60,7 +60,9 @@ export default function Header() {
           {/* Social Icons */}
           <div className="hidden md:flex md:px-4 items-center gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com/people/Sahari-Hub/61563344424784/?mibextid=LQQJ4d"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-2xl hover:text-blue-300 transition duration-300"
             >
               <FaFacebook size={28} />
@@ -137,7 +139,9 @@ export default function Header() {
             </div>
             <div className="flex justify-start space-x-4 pb-3 pl-4 text-2xl">
               <a
-                href="#"
+                href="https://www.facebook.com/people/Sahari-Hub/61563344424784/?mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:text-blue-300 transition duration-300"
               >
                 <FaFacebook />

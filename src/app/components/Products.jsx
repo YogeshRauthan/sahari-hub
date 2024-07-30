@@ -6,15 +6,15 @@ import "slick-carousel/slick/slick-theme.css";
 
 const Products = () => {
   const cardData = [
-    { image: "/assets/images/shirt.png", title: "Product 1", price: 19.99 },
-    { image: "/assets/images/shirt2.png", title: "Product 2", price: 29.99 },
-    { image: "/assets/images/shirt3.png", title: "Product 3", price: 39.99 },
-    { image: "/assets/images/shirt4.png", title: "Product 4", price: 49.99 },
-    { image: "/assets/images/shirt5.png", title: "Product 5", price: 59.99 },
-    { image: "/assets/images/shirt6.png", title: "Product 6", price: 69.99 },
-    { image: "/assets/images/shirt7.png", title: "Product 7", price: 79.99 },
-    { image: "/assets/images/shirt8.png", title: "Product 8", price: 89.99 },
-    { image: "/assets/images/shirt9.png", title: "Product 9", price: 99.99 },
+    { image: "/assets/images/shirt.png", title: "Product 1", price: 400 },
+    { image: "/assets/images/shirt2.png", title: "Product 2", price: 600 },
+    { image: "/assets/images/shirt3.png", title: "Product 3", price: 800 },
+    { image: "/assets/images/shirt4.png", title: "Product 4", price: 700 },
+    { image: "/assets/images/shirt5.png", title: "Product 5", price: 900 },
+    { image: "/assets/images/shirt6.png", title: "Product 6", price: 500 },
+    { image: "/assets/images/shirt7.png", title: "Product 7", price: 700 },
+    { image: "/assets/images/shirt8.png", title: "Product 8", price: 600 },
+    { image: "/assets/images/shirt9.png", title: "Product 9", price: 500 },
   ];
 
   const settings = {
@@ -75,7 +75,7 @@ const Card = ({ image, title, price }) => {
       <div className="bg-white flex flex-col border-t border-gray-300 justify-between p-4">
         <div>
           <h2 className="text-lg font-semibold mb-2">{title}</h2>
-          <p className="text-gray-600 font-bold">${price.toFixed(2)}</p>
+          <p className="text-gray-600 font-bold">Rs. {price.toFixed(2)}</p>
         </div>
         <button className="bg-orange-600 text-white mt-4 py-2 rounded-full px-4 font-semibold shadow-gray-400 shadow-md duration-300 hover:bg-white hover:text-orange-700 hover:border hover:border-orange-700">
           Order Now

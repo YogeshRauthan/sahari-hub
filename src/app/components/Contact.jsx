@@ -21,10 +21,10 @@ const Contact = () => {
                 <h2 className="text-2xl font-medium mb-4"><strong>Connect with us</strong></h2>
                 <div className="flex space-x-6">
                   <a
-                    href="https://facebook.com/yourprofile"
+                    href="https://www.facebook.com/people/Sahari-Hub/61563344424784/?mibextid=LQQJ4d"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800"
+                    className="text-blue-600 hover:text-blue-800 transition duration-300"
                   >
                     <FaFacebook size={32} />
                   </a>

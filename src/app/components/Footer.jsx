@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
             <p className="mb-2">123 Main Street</p>
             <p className="mb-2">City, State 12345</p>
-            <p>Phone: +91 (123) 456-7890</p>
+            <p>Phone: +91 8745092024</p>
           </div>
 
           {/* Quick Links */}

@@ -9,13 +9,13 @@ const Slider = dynamic(() => import('react-slick'), { ssr: false });
 const TestimonialData = [
     {
         id: 1,
-        name: "Shikha Gupta",
+        name: "Ananya",
         text: "I can't get enough of Sahari Hub's collections. They have everything from chic dresses to comfortable everyday wear. Simply amazing!",
         img: "https://picsum.photos/101/101"
     },
     {
         id: 2,
-        name: "Harish",
+        name: "Harsh",
         text: "Sahari Hub's men's collection is stylish and comfortable. Perfect for any occasion!",
         img: "https://picsum.photos/102/102"
     },
