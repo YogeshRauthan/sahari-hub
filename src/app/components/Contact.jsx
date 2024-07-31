@@ -37,15 +37,13 @@ const Contact = () => {
                     <FaInstagram size={32} />
                   </a>
                   <a
-                    href="https://t.me/yourusername"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="#"
                     className="text-blue-500 hover:text-blue-700"
                   >
                     <FaTelegram size={32} />
                   </a>
                   <a
-                    href="https://wa.me/yourphonenumber"
+                    href="https://wa.me/8745092024"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-green-600 hover:text-green-800"

@@ -76,7 +76,9 @@ export default function Header() {
               <FaInstagram size={28} />
             </a>
             <a
-              href="#"
+              href="https://wa.me/8745092024"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-2xl hover:text-green-300 transition duration-300 "
             >
               <FaWhatsapp size={28} />
@@ -155,7 +157,9 @@ export default function Header() {
                 <FaInstagram />
               </a>
               <a
-                href="#"
+                href="https://wa.me/8745092024"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white hover:text-green-300 transition duration-300"
               >
                 <FaWhatsapp />

@@ -31,8 +31,7 @@ const Footer = () => {
               />
               <h3 className="text-2xl font-semibold">Sahari Hub</h3>
             </div>
-            <p className="mb-2">123 Main Street</p>
-            <p className="mb-2">City, State 12345</p>
+            <p className="mb-2">Email: hubsahari@gmail.com</p>
             <p>Phone: +91 8745092024</p>
           </div>
 
@@ -80,13 +79,17 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://www.facebook.com/people/Sahari-Hub/61563344424784/?mibextid=LQQJ4d"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-gray-300 transition duration-300"
               >
                 <FaFacebook size={24} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/_sahari_hub/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-gray-300 transition duration-300"
               >
                 <FaInstagram size={24} />
@@ -98,7 +101,9 @@ const Footer = () => {
                 <FaTelegram size={24} />
               </a>
               <a
-                href="#"
+                href="https://wa.me/8745092024"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-gray-300 transition duration-300"
               >
                 <FaWhatsapp size={24} />
