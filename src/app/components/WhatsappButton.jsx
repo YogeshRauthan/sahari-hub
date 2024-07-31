@@ -5,7 +5,7 @@ import { FaWhatsapp } from 'react-icons/fa';
 
 const WhatsAppButton = () => {
   const [showPopup, setShowPopup] = useState(true);
-  const phoneNumber = "918750709787";
+  const phoneNumber = "918745092024";
 
   const togglePopup = () => {
     setShowPopup(!showPopup);
