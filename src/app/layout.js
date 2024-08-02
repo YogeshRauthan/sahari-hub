@@ -6,6 +6,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Sahari Hub",
   description: "Shop here and find latest fashion at Sahari Hub",
+  openGraph: {
+    title: "Sahari Hub",
+    description: "Shop here and find latest fashion at Sahari Hub",
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }) {
