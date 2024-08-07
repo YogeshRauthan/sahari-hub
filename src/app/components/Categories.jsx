@@ -13,19 +13,23 @@ const ProductsData = [
     id: 2,
     src: "/assets/images/shirt2.png",
     title: "Men Fashion",
-    description:
-      "Discover stylish men's clothing at Sahari Hub!",
+    description: "Discover stylish men's clothing at Sahari Hub!",
   },
   {
     id: 3,
     src: "/assets/images/women01.png",
     title: "Women Fashion",
-    description:
-      "Explore trendy and elegant women's fashion at Sahari Hub!",
+    description: "Explore trendy and elegant women's fashion at Sahari Hub!",
   },
 ];
 
 const Categories = () => {
+  const handleOrderNow = () => {
+    const phoneNumber = "918745092024";
+    const whatsappUrl = `https://wa.me/${phoneNumber}`;
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <div className="py-10">
       <div className="container mx-auto">
@@ -50,7 +54,8 @@ const Categories = () => {
         {/* Body Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-20 md:gap-5 place-items-center py-2">
           {ProductsData.map((data) => (
-            <div key={data.id}
+            <div
+              key={data.id}
               data-aos="zoom-in"
               data-aos-once="true"
               className=" rounded-2xl py-2 bg-gray-100 hover:bg-black/80 hover:text-white relative shadow-xl duration-300 group max-w-[300px]"
@@ -78,7 +83,10 @@ const Categories = () => {
                 <p className="text-gray-500 group-hover:text-white duration-300 text-sm line-clamp-2">
                   {data.description}
                 </p>
-                <button className="bg-orange-600 hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-orange-600">
+                <button
+                  className="bg-orange-600 hover:scale-105 duration-300 text-white py-1 px-4 rounded-full mt-4 group-hover:bg-white group-hover:text-orange-600"
+                  onClick={handleOrderNow}
+                >
                   Order Now
                 </button>
               </div>
